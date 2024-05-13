@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 section {
     background-color: #141414;
     width: 100vw;
@@ -15,8 +19,8 @@ footer {
     font-size: 0.8em;
 }
 
-footer p {
-    
+footer p {   
+    padding: 0;
     margin: 0;
 }
 
@@ -35,4 +39,19 @@ footer p {
 .logo {
     height: 40px;
     width: 95px;
+}
+
+.movie {
+    color: #fff;
+    width: 300px;
+    text-align: center;
+}
+
+
+.movie  img {
+    max-width: 15em;
+}
+
+.modal-header {
+    text-align: center;
 }
